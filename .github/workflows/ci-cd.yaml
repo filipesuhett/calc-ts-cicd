@@ -45,7 +45,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           npx sonarqube-scanner \
-            -Dsonar.projectKey=filipesuhett_calc-ts-cicd \
+            -Dsonar.projectKey=filipesuhett_calc-ts-cicd2 \
             -Dsonar.organization=filipesuhett \
             -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.login=${{ secrets.SONAR_TOKEN }}
